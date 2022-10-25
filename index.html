@@ -54,7 +54,7 @@
 
             <div class="col-sm-6">
               <label for="password1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="password1" required>
+              <input type="password"minlength="6" class="form-control" id="password1" required>
               <div class="valid-feedback">
                 ¡Se ve bien!
               </div>
@@ -65,7 +65,7 @@
 
             <div class="col-sm-6">
               <label for="password2" class="form-label">Repetir contraseña</label>
-              <input type="password" class="form-control" id="password2" required>
+              <input type="password" minlength="6" class="form-control" id="password2" required>
               <div class="valid-feedback">
                 ¡Se ve bien!
               </div>
@@ -81,7 +81,7 @@
             <div class="col-sm-12"></div>
 
 
-            <button class="btn btn-primary" type="submit">Registrarme</button>
+            <button class="btn btn-primary" onclick="validación()" type="submit">Registrarme</button>
 
 
           </div>
