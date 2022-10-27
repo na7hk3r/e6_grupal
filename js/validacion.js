@@ -1,5 +1,6 @@
 let password1 = document.getElementById("password1");
 let password2 = document.getElementById("password2");
+let terminos = document.getElementById("terminos");
 
 
 //validar las contraseñas
@@ -10,7 +11,16 @@ password2.addEventListener("input", validarContraseña);
     password2.setCustomValidity("");
   } else {
     password2.setCustomValidity("#valid-feedback");
-  }};
+  }
+
+  if (!terminos.checked) {
+    document.getElementById("btn-modal-terminos").classList.add("invalid-color");
+    document.getElementById("feedback-modal-terminos").style.display = "inline";
+  } else {
+    document.getElementById("btn-modal-terminos").classList.remove("invalid-color");
+    document.getElementById("feedback-modal-terminos").style.display = "none";
+  }
+};
 
 
 //Ejemplo de JavaScript inicial para deshabilitar el envío de formularios si hay campos no válidos
@@ -32,4 +42,5 @@ function validación() {
           form.classList.add('was-validated')
         }, false)
       })
+      validarContraseña()
   };
