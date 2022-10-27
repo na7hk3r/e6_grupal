@@ -16,7 +16,7 @@ Partes del entregable:
   - El campo repetir contraseña solo se valida cuando el valor sea igual al de contraseña,
     y que el campo contraseña ya se encuentre válido ✔
   - El checkbox de terminos y condiciones debe dar feedback en 3 lugares
-    - El mismo checkbox, dentro del modal
+    - El mismo checkbox, dentro del modal ✔
     - El boton que despliega el modal
     - Un texto al lado del mismo boton
     
