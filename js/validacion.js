@@ -14,10 +14,10 @@ password2.addEventListener("input", validarContraseña);
   }
 
   if (!terminos.checked) {
-    document.getElementById("btn-modal-terminos").classList.add("invalid-color");
+    document.getElementById("btn-modal-terminos").classList.add("link-danger");
     document.getElementById("feedback-modal-terminos").style.display = "inline";
   } else {
-    document.getElementById("btn-modal-terminos").classList.remove("invalid-color");
+    document.getElementById("btn-modal-terminos").classList.remove("link-danger");
     document.getElementById("feedback-modal-terminos").style.display = "none";
   }
 };
