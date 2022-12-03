@@ -1,4 +1,7 @@
 # Entrega 6 Grupal
+
+![rter](https://user-images.githubusercontent.com/104522465/205457188-be1c7e58-45a4-4f45-aebf-8c93d64c5e04.PNG)
+
 Consiste en agregar validaciones  a un formulario incial dado.
 Partes del entregable:
 
@@ -7,7 +10,7 @@ Partes del entregable:
   - El email debe tener un formato valido ✔
   - La contraseña debe tener al menos 6 caracteres ✔
   - Los datos ingresados en Contraseña y Repetir contraseña, deben ser iguales ✔
-  - Debe haberse marcado el checkbox para aceptar términos (contenido en un modal)
+  - Debe haberse marcado el checkbox para aceptar términos (contenido en un modal) ✔
   
 ## Parte 2
   - Feedback al usuario luego de ejecutar 'submit' ✔
@@ -15,10 +18,10 @@ Partes del entregable:
   - Para cada caso, debera alertarse a traves de un aviso y con un color en el borde del campo ✔
   - El campo repetir contraseña solo se valida cuando el valor sea igual al de contraseña,
     y que el campo contraseña ya se encuentre válido ✔
-  - El checkbox de terminos y condiciones debe dar feedback en 3 lugares
+  - El checkbox de terminos y condiciones debe dar feedback en 3 lugares ✔
     - El mismo checkbox, dentro del modal ✔
-    - El boton que despliega el modal
-    - Un texto al lado del mismo boton
+    - El boton que despliega el modal ✔
+    - Un texto al lado del mismo boton ✔
     
-## Fecha de Entrega 30/10 ##
+## Realizado con compañeras de Jóvenes a Programar 2022 ##
     
