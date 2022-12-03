@@ -1,6 +1,6 @@
 # Entrega 6 Grupal
 
-![rter](https://user-images.githubusercontent.com/104522465/205457188-be1c7e58-45a4-4f45-aebf-8c93d64c5e04.PNG)
+![rter](https://user-images.githubusercontent.com/104522465/205457278-bcbc55cc-8101-433b-8e7e-fff57e5fb3d4.png)
 
 Consiste en agregar validaciones  a un formulario incial dado.
 Partes del entregable:
